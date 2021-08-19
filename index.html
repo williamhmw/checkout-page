@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Checkout page</title>
+</head>
+<body>
+    <header>
+        <div class="title-page">Checkout</div>
+    </header>
+    <main>
+        <div class="checkout-products">
+            <div class="product">
+                <div class="image-product"></div>
+                <div class="name-product">Vintage Backbag</div>
+                <div class="promotion-value-product">$54.99</div>
+                <div class="value-product">$94.99</div>
+                <div class="amount">1</div>
+            </div>
+            <div class="product">
+                <div class="image-product"></div>
+                <div class="name-product">Levi Shoes</div>
+                <div class="promotion-value-product">$74.99</div>
+                <div class="value-product">$124.99</div>
+                <div class="amount">1</div>
+            </div>
+            <div class="price-request">Shipping<span>$19</span></div>
+            <div class="price-request">Total<span>$148.98</span></div>
+        </div>
+        <form name="checkout-page" action="#">
+
+            <div class="form-information">Informações de contato</div>
+
+            <label for="email">E-mail</label><br>
+            <input type="text" id="email" name="email" placeholder="Insira seu email..."><br>
+
+            <label for="phone">Nº Telefone</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Insira seu número de telefone..."><br>
+
+            <div class="form-information">Endereço de entrega</div>
+
+            <label for="email">Nome compelto</label><br>
+            <input type="text" id="email" name="email" placeholder="Insira seu nome completo..."><br>
+
+            <label for="adress">Endereço</label><br>
+            <input type="text" id="adress" name="adress" placeholder="Insira seu endereço..."><br>
+
+            <label for="city">Cidade</label><br>
+            <input type="text" id="city" name="city" placeholder="Insira sua cidade"><br>
+
+            <label for="country">País</label><br>
+            <input type="text" id="coutry" name="country" placeholder="Slecione um país..."><br>
+
+            <label for="postal-code">CEP</label><br>
+            <input type="text" id="postal-code" name="postal-code" placeholder="Insira seu CEP..."><br>
+
+            <input type="checkbox" name="save-information" id="save-information">
+            <label for="save-information">Salvar as informações para a próxima vez</label><br>
+            
+            <input type="submit" class="continuar" value="Continuar">
+        
+        </form>
+        
+    </main>
+    <footer>criado por&nbsp<span class="name-developer"><u>williamhmw</u></span>&nbsp- devChallenges.io</footer>
+</body>
+</html>
