@@ -1,5 +1,13 @@
+$color-gray-1:#4E5150;
+$color-gray-2:#333333;
+$color-gray-3:#828282;
+$color-gray-4:#4F4F4F;
+$color-gray-6:#F2F2F2;
+$color-orange-1:#F2994A;
+
 :root{
     font-size: 16px;
+    font-weight: 600;
 }
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, strong,
 b, u, i, center, ol, ul, li, label, footer, header,
@@ -10,6 +18,10 @@ menu, nav, section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+body{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');

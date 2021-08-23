@@ -1,1 +1,115 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+:root {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, strong,
+b, u, i, center, ol, ul, li, label, footer, header,
+menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.title-page {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 0.3755rem;
+  margin-bottom: 1.25rem;
+}
+
+.checkout-products {
+  background-color: #F2F2F2;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 0.75rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.checkout-products .product {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.checkout-products .image-product img {
+  border-radius: 0.8125rem;
+  max-width: 10rem;
+  max-height: 7.75rem;
+}
+
+.checkout-products .name-product {
+  color: #4E5150;
+  font-size: 1rem;
+  margin-bottom: 0.375rem;
+}
+
+.checkout-products .value-product {
+  color: #F2994A;
+}
+
+.checkout-products .value-product span {
+  color: #4E5150;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  font-size: 0.75rem;
+}
+
+.checkout-products .amount {
+  color: #333333;
+  border: 1px solid #828282;
+  border-radius: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.875rem;
+  margin-right: 3.625em;
+}
+
+.checkout-products .price-request {
+  font-size: 0.875rem;
+  color: #333333;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #BDBDBD;
+  -webkit-transform: rotate(-0.18deg);
+          transform: rotate(-0.18deg);
+  padding-top: 0.625rem;
+  padding-bottom: 1rem;
+}
+
+form .form-information {
+  font-size: 0.875rem;
+  color: #333333;
+  margin-bottom: 0.75rem;
+}
+
+form label {
+  font-size: 0.625rem;
+  color: #4F4F4F;
+}
+
+form input {
+  margin-top: 0.375rem;
+  margin-bottom: 1rem;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  width: 100%;
+  height: 2.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
