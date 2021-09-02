@@ -29,34 +29,37 @@
                     <div class="amount">1</div>
                 </div>
             </div>
-            <div class="price-request">Shipping<span>$19</span></div>
-            <div class="price-request">Total<span>$148.98</span></div>
+            <div class="shipping">
+                <div class="price-request">Shipping<span>$19</span></div>
+                <div class="price-request">Total<span>$148.98</span></div>
+            </div>
+            
         </div>
         <form name="checkout-page" action="#">
 
             <div class="form-information">Informações de contato</div>
 
-            <label for="email">E-mail</label><br>
-            <input type="e" id="email" name="email" placeholder="Insira seu email..." required><br>
+            <label for="email" class="email icon">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Insira seu email..." required><br>
 
-            <label for="phone">Nº Telefone</label><br>
+            <label for="phone" class="phone icon">Nº Telefone</label><br>
             <input type="tel" id="phone" name="phone" placeholder="Insira seu número de telefone..." pattern="[0-9]{2}-[0-9]{1}-[0-9]{8}" required><br>
 
             <div class="form-information">Endereço de entrega</div>
 
-            <label for="email">Nome compelto</label><br>
-            <input type="text" id="email" name="email" placeholder="Insira seu nome completo..." required><br>
+            <label for="name" class="name icon">Nome compelto</label><br>
+            <input type="text" id="name" name="namr" placeholder="Insira seu nome completo..." required><br>
 
-            <label for="adress">Endereço</label><br>
+            <label for="adress" class="adress icon">Endereço</label><br>
             <input type="text" id="adress" name="adress" placeholder="Insira seu endereço..." required><br>
 
-            <label for="city">Cidade</label><br>
+            <label for="city" class="city icon">Cidade</label><br>
             <input type="text" id="city" name="city" placeholder="Insira sua cidade" required><br>
 
-            <label for="country">País</label><br>
+            <label for="coutry" class="coutry icon">País</label><br>
             <input type="text" id="coutry" name="country" placeholder="Slecione um país..." required><br>
 
-            <label for="postal-code">CEP</label><br>
+            <label for="postal-code" class="postal-code icon">CEP</label><br>
             <input type="text" id="postal-code" name="postal-code" placeholder="Insira seu CEP..." min="8" max="8" required><br>
 
             <input type="checkbox" name="save-information" id="save-information">
